@@ -2,5 +2,5 @@
   
 </head>
 <body>
-  <h1 style = "text-align: center"> Hi There! </h1>
+  <h1> Hi There! </h1>
 </body>
