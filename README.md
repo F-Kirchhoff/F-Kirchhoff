@@ -1,2 +1,2 @@
 # Moin!
-![](./hello.svg)
+
