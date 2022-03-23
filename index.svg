@@ -448,7 +448,7 @@ h2 span, h2::before, h2::after {
 .hero-container {
   --primary: #FBB13C;
   --secondary: #D30C7B;
-  --tertiary: 34E4EA;
+  --tertiary: white;
   position: relative;
   padding: 200px 0;
   text-align: center;
