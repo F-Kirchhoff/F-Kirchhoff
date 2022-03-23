@@ -446,7 +446,7 @@ h2 span, h2::before, h2::after {
 						'Segoe UI Emoji';
 }
 .hero-container {
-  --primary: #FABD2F;
+  --primary: red;
   --secondary: #89B978;
   --tertiary: magenta;
   position: relative;
