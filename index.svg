@@ -2,7 +2,26 @@
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
-				.hero {
+body {
+  color: #ccc;
+  background: #111;
+  font-family: sans-serif;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+a {
+  color: #ccc;
+}
+
+section {
+  padding: 20px;
+}
+
+.hero {
   font-size: clamp(40px, 10vw, 100px);
   line-height: 1;
   display: inline-block;
@@ -474,8 +493,25 @@
     font 7s step-end infinite, movement 8s step-end infinite;
 }
 
-			</style>
-			<h2 class="hero glitch layers" data-text="近設計近設計"><span>Hello World</span></h2>
-		</div>
+.hero-container {
+  position: relative;
+  padding: 200px 0;
+  text-align: center;
+}
+
+.environment {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+  filter: blur(5px);
+  background: url(https://images.unsplash.com/photo-1602136773736-34d445b989cb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80)
+    center no-repeat;
+  background-size: cover;
+}
+</style>
+	<h2 class="hero glitch layers" data-text="近設計近設計"><span>Hello World</span></h2>
 	</foreignObject>
 </svg>
